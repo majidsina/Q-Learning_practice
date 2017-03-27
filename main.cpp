@@ -14,9 +14,9 @@ int main(){
 	// -------------------------------
 	// ------Environment settings-----
 	// -------------------------------
-	// initialize
-	int grid_width = 10;
-	int grid_height = 10;
+	// initialize and construct
+	int grid_width = 25;
+	int grid_height = 25;
 
 	Environment environment_object(grid_width, grid_height);
 	
@@ -25,8 +25,8 @@ int main(){
 	int agent_start_y_grid_position = 0;
 
 	// goal grid position
-	int goal_x_grid_position = 9;
-	int goal_y_grid_position = 9;
+	int goal_x_grid_position = 24;
+	int goal_y_grid_position = 24;
 
 	// set the positions
 	environment_object.SetAgentStartGridPosition(agent_start_x_grid_position, agent_start_y_grid_position);
@@ -35,14 +35,14 @@ int main(){
 	// -------------------------
 	// ------Agent settings-----
 	// -------------------------
-	// initialize
+	// initialize and construct
 	int number_of_states = grid_width*grid_height;
 	int number_of_actions = 4;
 
 	Agent agent_object(number_of_states, number_of_actions);
 
 	// declare other variables
-	double alpha = 0.5, gamma = 0.8, epsilon = 0.8;
+	double alpha = 0.3, gamma = 0.8, epsilon = 1;
 
 	// set other variables; 
 	agent_object.SetAlpha(alpha);
@@ -53,19 +53,19 @@ int main(){
 	// ------Q-learning routine-----
 	// -----------------------------
 	// specify number of episodes
-	int number_of_episodes = 10000;
+	int number_of_episodes = 1000;
 
 	// initialize the Q_learing object
 	Q_learning Q_object(agent_object, environment_object, number_of_episodes);
 	
 	// learn
-	Q_object.learn();
+	Q_object.Learn();
 
-	// plot the learning results
+	// plot
+	Q_object.PlotRewardPerEpisode();
 
 	// print out results
-    //agent_object.PrintQTable();
-    //agent_object.PrintPolicy();
-    agent_object.PrintMaxQValuePerState(grid_width, grid_height);
-
+    // agent_object.PrintQTable();
+    // agent_object.PrintPolicy();
+    // agent_object.PrintMaxQValuePerState(grid_width, grid_height);
 }

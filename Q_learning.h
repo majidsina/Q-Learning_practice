@@ -8,24 +8,28 @@ public:
 	Q_learning(Agent& agent_object, Environment& environment_object, int number_of_episodes);
 
 	// public function
-	void learn();
+	void Learn();
+	void PlotRewardPerEpisode();
 
 	// deconstructor
 	~Q_learning();
 
 private:
 	// class variables
-	int number_of_episodes;
+	int number_of_episodes_;
+	int total_reward_;
 
-	// agent and environment
+	// arrays
+	int* reward_per_episode_;
+
+	// objects: agent and environment
 	Agent& agent_object;
 	Environment& environment_object;
-	
-	// arrays
-	int* reward_per_episode;
 
 	// private functions
-	void save_reward_per_episode();
+	void SaveRewardPerEpisode();
+	void AddReward(int reward);
+	void SetTotalReward(int total_reward);
 };
 
 #endif

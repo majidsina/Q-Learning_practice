@@ -200,7 +200,7 @@
 			"file": "Agent.h",
 			"settings":
 			{
-				"buffer_size": 1241,
+				"buffer_size": 1404,
 				"line_ending": "Unix"
 			}
 		},
@@ -208,7 +208,7 @@
 			"file": "Agent.cpp",
 			"settings":
 			{
-				"buffer_size": 5802,
+				"buffer_size": 6539,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -217,7 +217,7 @@
 			"file": "Q_learning.h",
 			"settings":
 			{
-				"buffer_size": 491,
+				"buffer_size": 587,
 				"line_ending": "Unix"
 			}
 		},
@@ -225,7 +225,7 @@
 			"file": "Q_learning.cpp",
 			"settings":
 			{
-				"buffer_size": 2159,
+				"buffer_size": 2919,
 				"line_ending": "Unix"
 			}
 		}
@@ -644,7 +644,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1241,
+						"buffer_size": 1404,
 						"regions":
 						{
 						},
@@ -672,7 +672,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5802,
+						"buffer_size": 6539,
 						"regions":
 						{
 						},
@@ -700,15 +700,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 491,
+						"buffer_size": 587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								0,
+								0
 							]
 						],
 						"settings":
@@ -728,7 +728,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2159,
+						"buffer_size": 2919,
 						"regions":
 						{
 						},

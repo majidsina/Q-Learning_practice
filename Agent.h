@@ -11,6 +11,7 @@ public:
 	void SelectAction();
 	void UpdatePolicy();
 	void UpdateQTable(int new_state_index, int reward);
+	void UpdateAgentParameters(int current_episode);
 
 	// get functions
 	int GetActionIndex();
@@ -22,6 +23,7 @@ public:
 	void SetAlpha(double alpha);
 	void SetGamma(double gamma);
 	void SetEpsilon(double epsilon);
+	void SetEpsilonZero(double epsilon_zero);
 
 	// printing and plotting functions
 	void PrintPolicy();
@@ -42,6 +44,7 @@ private:
 	int number_of_episodes_;
 	double gamma_;
 	double alpha_;
+	double epsilon_zero_;
 	double epsilon_;
 
 	// arrays
@@ -54,6 +57,7 @@ private:
 	void UpdateQValue(int state_index, int action_index, double new_Q_value);
 	int GetMaxQActionIndex(int s_index);
 	double CalculateTemporalDifference(int new_state_index, int reward);
+	double CalculateEpsilon(int current_episode);
 };
 
 

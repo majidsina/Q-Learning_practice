@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <cstdlib>
 #include <ctime>
+#include <math.h>
 #include "Agent.h"
 using namespace std;
 
@@ -126,6 +127,30 @@ void Agent::UpdatePolicy(){
 	}
 }
 
+// UpdateAgentParamters function
+void Agent::UpdateAgentParameters(int current_episode){
+	// placeholder variable
+	double current_epsilon;
+
+	// calculate the current epsilon
+	current_epsilon = CalculateEpsilon(current_episode);
+
+	// set the current epsilon
+	SetEpsilon(current_epsilon);
+}
+
+// UpdateAgent function
+double Agent::CalculateEpsilon(int current_episode){
+	// placeholder variable
+	double current_epsilon;
+	double sigma = number_of_episodes_/6
+;
+	// calculate the current epsilon
+	current_epsilon = epsilon_zero_*exp(-current_episode/sigma);
+
+	return current_epsilon;
+}
+
 // GetActionIndex function
 int Agent::GetActionIndex(){
 	int action;
@@ -148,6 +173,12 @@ void Agent::SetGamma(double gamma){
 void Agent::SetEpsilon(double epsilon){
 	// set epsilon
 	this->epsilon_ = epsilon;
+}
+
+// SetEpsilonZero function
+void Agent::SetEpsilonZero(double epsilon_zero){
+	// set epsilon zero
+	this->epsilon_zero_ = epsilon_zero;
 }
 
 // SetNumberOfEpisodes function
