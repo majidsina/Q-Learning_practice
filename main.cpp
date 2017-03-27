@@ -10,6 +10,7 @@ using namespace std;
 int main(){
 	// pick the seed location
 	srand(time(0));
+	// comment
 
 	// -------------------------------
 	// ------Environment settings-----
