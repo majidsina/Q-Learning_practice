@@ -1,0 +1,838 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"num",
+				"number_of_actions_"
+			],
+			[
+				"num_",
+				"num_y_cells"
+			],
+			[
+				"agent",
+				"agent_x_position_"
+			],
+			[
+				"Set",
+				"SetAgentGridPosition"
+			],
+			[
+				"epsi",
+				"epsilon_zero"
+			],
+			[
+				"Q",
+				"Q_learning"
+			],
+			[
+				"number",
+				"number_of_episodes"
+			],
+			[
+				"reward",
+				"reward_per_episode"
+			],
+			[
+				"grid",
+				"grid_height"
+			],
+			[
+				"current_state_max",
+				"current_state_max_Q_index"
+			],
+			[
+				"Q-",
+				"Q-table"
+			],
+			[
+				"curren",
+				"current_state_max_Q"
+			],
+			[
+				"aget",
+				"agent_start_y_position"
+			],
+			[
+				"epi",
+				"episode_end"
+			],
+			[
+				"episod",
+				"episode_e"
+			],
+			[
+				"epsiode",
+				"episode_end"
+			],
+			[
+				"goal",
+				"goal_y_position"
+			],
+			[
+				"select",
+				"select_action"
+			],
+			[
+				"rand",
+				"random_number"
+			],
+			[
+				"radom",
+				"random_number"
+			],
+			[
+				"random",
+				"random_number"
+			],
+			[
+				"num_states",
+				"number_of_states"
+			],
+			[
+				"action",
+				"action_index"
+			],
+			[
+				"get",
+				"get_action"
+			],
+			[
+				"temp",
+				"temporal_difference"
+			],
+			[
+				"new_",
+				"new_Q_value_current_state"
+			],
+			[
+				"Q_value",
+				"Q_value_current_state"
+			],
+			[
+				"state",
+				"state_index"
+			],
+			[
+				"set",
+				"set_variable"
+			],
+			[
+				"update",
+				"update_state"
+			],
+			[
+				"index",
+				"index_of_max_Q_value"
+			],
+			[
+				"pri",
+				"print_grid"
+			],
+			[
+				"variabl",
+				"variable_name"
+			],
+			[
+				"nu",
+				"number_of_states"
+			],
+			[
+				"age",
+				"agent_position"
+			],
+			[
+				"initial",
+				"initial_position"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"atta",
+				"attack_power"
+			],
+			[
+				"att",
+				"attack_power"
+			],
+			[
+				"print",
+				"print_something"
+			],
+			[
+				"arrow",
+				"arrow_object"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 1783,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Environment.h",
+			"settings":
+			{
+				"buffer_size": 1049,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Environment.cpp",
+			"settings":
+			{
+				"buffer_size": 4263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Agent.h",
+			"settings":
+			{
+				"buffer_size": 1241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Agent.cpp",
+			"settings":
+			{
+				"buffer_size": 5802,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Q_learning.h",
+			"settings":
+			{
+				"buffer_size": 491,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Q_learning.cpp",
+			"settings":
+			{
+				"buffer_size": 2159,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 223.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"#!/usr/bin/python"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/Q_learning.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/Q_learning.h",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/Agent.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/Agent.h",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/Environment.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/Environment.h",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/reward_per_episode.txt",
+		"/home/steven/Documents/Thesis/0.Practice/Q-Learning/test.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/People.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/People.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/66.CustomFileStructure/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/09.Functions/functions.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/23.DoWhile/dw.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/18.While/w.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/27.RandomNumbers/rn.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/test_windygrid/test/agent.h",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/test_windygrid/test/agent.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/test_windygrid/test/rl_sarsa.h",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/test_windygrid/test/rl_sarsa.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/Taxi_problem/q_learning.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/45.MemberInitializers/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/44.ConstObjects/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/44.ConstObjects/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/14.Constructors/con.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/Taxi_problem/q_learning.h",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/Taxi_problem/main.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/q_learning.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/blackboard.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/q_learning.h",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/EvolutionaryLearning/khepera_tests.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/EvolutionaryLearning/GP.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/EvolutionaryLearning/delfly_tests.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/code/EvolutionaryLearning/GP_utils.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/Cpp/BT1/Chapter1test/Chapter1test/main.cpp",
+		"/media/steven/New Volume/Documents/TU Delft/Master/Master thesis/Yannick/Cpp/BT1/behaviortree3/behaviortree3/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/37.PrintMultiArray/pa.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/36.MultiArrays/ma.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/37.PrintMultiArray/pma.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/35.PassingArrays/pa.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/32.Arrays/array.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/73.Final/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/72.SubStrings/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/71.StringClass/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/68.CoolProgram/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/67.ReadingCustomFiles/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/67.ReadingCustomFiles/output.txt",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/66.CustomFileStructure/output.txt",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/64.Working/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/62.Exceptions/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/60.TemplateSpecializations/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/60.ClassTemplates/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/59.FunctionTemplates2/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/58.FunctionTemplates/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/55.Polymorphism/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/54.DerivedClassConstructor/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/54.DerivedClassConstructor/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/54.DerivedClassConstructor/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/54.DerivedClassConstructor/Neef.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/54.DerivedClassConstructor/Neef.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/54.DerivedClassConstructor/ls",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/53.ProtectedMembers/Neef.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/53.ProtectedMembers/Neef.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/53.ProtectedMembers/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/53.ProtectedMembers/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/53.ProtectedMembers/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/51.Inheritance/Neef.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/51.Inheritance/Neef.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/51.Inheritance/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/51.Inheritance/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/51.Inheritance/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/50.OperatorOverloading/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/50.OperatorOverloading/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/50.OperatorOverloading/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/50.OperatorOverloading/Steven.",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/49.This/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/49.This/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/49.This/this.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/48.friend/friend.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/Birthday.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/Birthday.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/comp.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/World.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/World.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/46.Composition/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/45.MemberInitializers/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/45.MemberInitializers/mi.cpp",
+		"/etc/bash.bashrc",
+		"/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bashrc",
+		"/usr/share/doc/adduser/examples/adduser.local.conf.examples/bash.bashrc",
+		"/usr/share/base-files/dot.bashrc",
+		"/var/lib/apt/lists/dl.google.com_linux_chrome_deb_dists_stable_Release",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/44.ConstObjects/co.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/43.Deconstructors/Steven.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/43.Deconstructors/Steven.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/43.Deconstructors/dec.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/42.ArrowMembers/Arrow.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/42.ArrowMembers/Arrow.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/42.ArrowMembers/am.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/41.PointersAndMath/pm.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/39.PassByReference/pbr.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/40.Sizeof/so.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/38.IntroPointers/ip.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/34.ArrayCalc/ac.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/33.ArrayLoop/al.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/31.Recursion/rec.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/30.FunctionOverloading/fo.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/29.UnaryScope/us.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/28.Parameters/pa.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/26.LogicalOperators/lo.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/25.Switch/sw.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/23.StockMarket/sm.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/22.ForLoop/fl.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/21.IncrementOperations/IO.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/20.Sentinel/sent.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/21.IncrementOperations/21.IO",
+		"/home/steven/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/steven/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/19.SimpleProgram/sp.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/16.IF2/if2.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/15.ClassFiles/Burrito.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/15.ClassFiles/Burrito.h",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/15.ClassFiles/main.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/15.ClassFiles/cf.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/13.ClassVariables/cv.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/12.ClassesObjects/co.cpp",
+		"/home/steven/Documents/Thesis/0.Practice/Boston/10.ParameterFunctions/pf.cpp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"set_variable",
+			"update_Q_value",
+			"calculate_temporal_difference",
+			"get_max_Q_action_index",
+			"select_policy_action",
+			"select_random_action",
+			"print_max_Q_per_state",
+			"print_policy",
+			"update_policy",
+			"update_Q_table",
+			"print_Q_table",
+			"get_action_index",
+			"select_action",
+			"Q_table",
+			"alpha",
+			"epsilon",
+			"gamma",
+			"state_index",
+			"action_index",
+			"number_of_episodes",
+			"number_of_actions",
+			"number_of_states",
+			"policy",
+			"env_object",
+			"cout",
+			"SetAgentGridPosition",
+			"cout",
+			"SetVariable",
+			"Calculatereward_",
+			"reward",
+			"state_index",
+			"episode_end",
+			"goal_y_position",
+			"goal_x_position",
+			"agent_y_position",
+			"agent_x_position",
+			"agent_start_y_position",
+			"agent_start_x_position",
+			"grid_height",
+			"grid_width",
+			"calculate_reward",
+			"sSet",
+			"calculate_reward",
+			"CalculateReward",
+			"calculate_reward",
+			"update_agent_location",
+			"calculate_reward",
+			"update_state",
+			"check_episode_end",
+			"set_variable",
+			"reset_environment",
+			"apply_action",
+			"print_grid",
+			"get_episode_end",
+			"get_reward",
+			"get_state_index",
+			"select_policy_action",
+			"update_policy",
+			"get_max_Q_action_index",
+			"action",
+			"QValues",
+			"Steven",
+			"PS1",
+			"PROMPT_DIRTRIM=2",
+			"PROMPT_DIRTRIM=3",
+			"if [ \"",
+			"PROMPT_DIRTRIM",
+			"PROMT",
+			"/var/lib/apt/lists#",
+			"/var/lib/apt",
+			"gedit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"UpdateQValue",
+			"CalculateTemporalDifference",
+			"GetMaxQActionIndex",
+			"SelectPolicyAction",
+			"SelectRandomAction",
+			"PrintMaxQValuePerState",
+			"PrintPolicy",
+			"UpdatePolicy",
+			"UpdateQTable",
+			"PrintQTable",
+			"GetActionIndex",
+			"SelectAction",
+			"Q_table_",
+			"alpha_",
+			"gamma_",
+			"state_index_",
+			"action_index_",
+			"number_of_episodes_",
+			"number_of_actions_",
+			"number_of_states_",
+			"policy_",
+			"environment_object",
+			"CalculateReward",
+			"reward_",
+			"state_index_",
+			"episode_end_",
+			"goal_y_position_",
+			"goal_x_position_",
+			"agent_y_position_",
+			"agent_x_position_",
+			"agent_start_y_position_",
+			"agent_start_x_position_",
+			"grid_height_",
+			"grid_width_",
+			"CalculateReward",
+			"UpdateAgentLocation",
+			"CalculateReward",
+			"UpdateState",
+			"CheckEpisodeEnd",
+			"SetVariable",
+			"ResetEnvironment",
+			"ApplyAction",
+			"PrintGrid",
+			"GetEpisodeEnd",
+			"GetReward",
+			"GetStateIndex",
+			"Neef",
+			"Birthday",
+			"World",
+			"sublime_text"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Environment.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Environment.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Agent.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Agent.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Q_learning.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Q_learning.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Q-Learning.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
